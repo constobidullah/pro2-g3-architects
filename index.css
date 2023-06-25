@@ -106,3 +106,12 @@ body {
     background-color: rgb(251, 253, 255);
     box-shadow: 3px 3px 3px aliceblue, 5px 5px 4px whitesmoke, 3px 3px 1px gainsboro;
 }
+
+.some-facts{
+    margin-left: 20px;
+}
+
+.some-facts h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
