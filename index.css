@@ -69,12 +69,10 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    grid-area: item1;
 }
 
 .features-text {
     margin-top: 130px;
-    grid-area: item2;
 }
 
 .features-text h1 {
@@ -176,8 +174,9 @@ footer p {
 @media screen and (max-width:480px) and (min-width:320px) {
     body {
         margin: 0;
-        padding: 4px;
+        padding:0;
         border: 0;
+        overflow-x: hidden;
     }
     
     #header-part {
@@ -219,13 +218,14 @@ footer p {
         display: grid;
         grid-template-areas: "item2"
             "item1";
+            grid-template-columns: none;
         grid-gap: 30px;
     }
 
     .features-image-group {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: 1fr;
         grid-gap: 10px;
         grid-area: item1;
     }
@@ -243,11 +243,14 @@ footer p {
 
     .loving-features {
         width: 100%;
-        margin: 0 0 100px 0;
+        margin: 0 5px 100px 5px;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
     }
+     .loving-features-heading {
+        text-align: center;
+     }
 
     .loving-features-heading h1 {
         font-size: 1.5rem;
