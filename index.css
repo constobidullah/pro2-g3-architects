@@ -226,11 +226,13 @@ footer p {
     }
 
     .features-text {
+        width: 100%;
         margin-top: 0;
         grid-area: item2;
     }
 
     .features-text h1 {
+        width: 100%;
         font-size: 1.5rem;
     }
 
