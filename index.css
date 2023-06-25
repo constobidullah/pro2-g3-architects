@@ -152,3 +152,16 @@ body {
 .sponsor-item img{
     margin-left: 4em;
 }
+
+/* footer part */
+
+footer{
+    margin: 0 10%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+}
