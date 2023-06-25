@@ -216,7 +216,7 @@ footer p {
     }
 
     .features-text {
-        /* margin-top: 130px; */
+        margin-top: 0;
         grid-area: item2;
     }
 
