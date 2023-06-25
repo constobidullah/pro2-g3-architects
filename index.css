@@ -231,7 +231,30 @@ footer p {
     }
 
     .features-text h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
+    .loving-features {
+        width: 100%;
+        margin: 0 20px 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .loving-features-heading h1 {
+        font-size: 1.5rem;
+        border-left: 2px solid orange;
+    }
+
+    .loving-features-item {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: rgb(251, 253, 255);
+        box-shadow: 3px 3px 3px aliceblue, 5px 5px 4px whitesmoke, 3px 3px 1px gainsboro;
+    }
+    .loving-features-image img{
+        width: 100%;
+        height: auto;
+    }
 }
