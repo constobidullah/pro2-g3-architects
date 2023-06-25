@@ -242,7 +242,7 @@ footer p {
     }
 
     .loving-features {
-        width: 100%;
+        width: 100vw;
         margin: 0 5px 100px 5px;
         display: grid;
         grid-template-columns: 1fr;
