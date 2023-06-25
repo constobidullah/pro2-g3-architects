@@ -210,7 +210,7 @@ footer p {
     }
 
     .features {
-        margin: 50px 10px;
+        margin: 100px 10px;
         display: grid;
         grid-template-areas: "item2"
             "item1";
@@ -306,7 +306,7 @@ footer p {
     }
 
     .sponsor-item img {
-        margin-left: 4em;
+        margin:0;
     }
 
 }
