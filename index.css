@@ -115,3 +115,18 @@ body {
     font-size: 3rem;
     margin-bottom: 0;
 }
+
+.achievement{
+    margin: 40px 70px 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.achievement-item{
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 0;
+}
