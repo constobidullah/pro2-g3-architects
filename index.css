@@ -69,10 +69,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    grid-area: item1;
 }
 
 .features-text {
     margin-top: 130px;
+    grid-area: item2;
 }
 
 .features-text h1 {
@@ -196,6 +198,30 @@ footer p {
 
     #header-part img {
         width: 100%;
+    }
+
+    .features {
+        /* margin: 200px 40px 80px 40px; */
+        display: grid;
+        grid-template-areas: "item2"
+            "item1";
+        grid-gap: 30px;
+    }
+
+    .features-image-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-area: item1;
+    }
+
+    .features-text {
+        /* margin-top: 130px; */
+        grid-area: item2;
+    }
+
+    .features-text h1 {
+        font-size: 2rem;
     }
 
 }
