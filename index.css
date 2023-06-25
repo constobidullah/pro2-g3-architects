@@ -173,7 +173,6 @@ footer p {
 
 @media screen and (max-width:480px) and (min-width:320px) {
     body {
-        width: 100%;
         margin: 0;
         padding:0;
         border: 0;
@@ -243,7 +242,7 @@ footer p {
     }
 
     .loving-features {
-        width: 100vw;
+        width:100%;
         margin: 0 5px 100px 5px;
         display: grid;
         grid-template-columns: 1fr;
