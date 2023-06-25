@@ -210,7 +210,7 @@ footer p {
     }
 
     .features {
-        margin: 20px 20px;
+        margin: 50px 10px;
         display: grid;
         grid-template-areas: "item2"
             "item1";
@@ -236,7 +236,7 @@ footer p {
 
     .loving-features {
         width: 100%;
-        margin: 0 20px 100px;
+        margin: 0 0 100px 0;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
@@ -253,8 +253,60 @@ footer p {
         background-color: rgb(251, 253, 255);
         box-shadow: 3px 3px 3px aliceblue, 5px 5px 4px whitesmoke, 3px 3px 1px gainsboro;
     }
-    .loving-features-image img{
+
+    .loving-features-image img {
         width: 100%;
         height: auto;
     }
+
+    .some-facts {
+        margin: 0;
+        text-align: center;
+    }
+
+    .some-facts h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .achievement {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .achievement-item {
+        text-align: center;
+        border: 2px solid orange;
+        border-radius: 5px;
+        padding: 5px;
+        line-height: 0;
+    }
+
+    .sponsor {
+        margin-bottom: 50px;
+    }
+
+    .sponsor-text {
+        text-align: center;
+    }
+
+    .sponsor-text h1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+        color: orange;
+    }
+
+    .sponsor-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-item img {
+        margin-left: 4em;
+    }
+
 }
