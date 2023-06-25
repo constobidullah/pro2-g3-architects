@@ -3,7 +3,8 @@ body {
     padding: 0;
     border: 0;
 }
-#header-part{
+
+#header-part {
     width: 100%;
     height: 100vh;
     background-color: antiquewhite;
@@ -28,18 +29,18 @@ body {
     text-decoration: none;
 }
 
-.header-title-and-text{
+.header-title-and-text {
     width: 100%;
     margin-top: 7em;
     text-align: center;
 }
 
-.header-title-and-text h2{
+.header-title-and-text h2 {
     line-height: .2rem;
     font-size: 3rem;
 }
 
-.explore-btn{
+.explore-btn {
     margin-top: 20px;
     border: 0;
     padding: 10px;
@@ -50,44 +51,45 @@ body {
     border-radius: 3px;
 }
 
-#header-part img{
+#header-part img {
     width: 100%;
     margin: 30px 0;
 }
 
 /* Features css code here */
 
-.features{
+.features {
     margin: 200px 40px 80px 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
 }
 
-.features-image-group{
+.features-image-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
-.features-text{
+.features-text {
     margin-top: 130px;
 }
 
-.features-text h1{
+.features-text h1 {
     font-size: 3rem;
 }
-.features-text span{
+
+.features-text span {
     color: orange;
 }
 
-.second-btn{
+.second-btn {
     margin: 0;
 }
 
 /* Loving Features */
 
-.loving-features{
+.loving-features {
     margin: 0 20px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -95,37 +97,37 @@ body {
 }
 
 
-.loving-features-heading h1{
+.loving-features-heading h1 {
     font-size: 3rem;
     border-left: 5px solid orange;
 }
 
-.loving-features-item{
+.loving-features-item {
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(251, 253, 255);
     box-shadow: 3px 3px 3px aliceblue, 5px 5px 4px whitesmoke, 3px 3px 1px gainsboro;
 }
 
-.some-facts{
+.some-facts {
     margin-left: 20px;
 }
 
-.some-facts h1{
+.some-facts h1 {
     font-size: 3rem;
     margin-bottom: 0;
 }
 
 /* achievement box */
 
-.achievement{
+.achievement {
     margin: 40px 70px 120px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.achievement-item{
+.achievement-item {
     text-align: center;
     border: 2px solid orange;
     border-radius: 5px;
@@ -134,34 +136,67 @@ body {
 }
 
 /* Sponsor ship item */
-.sponsor{
+.sponsor {
     margin-bottom: 100px;
 }
-.sponsor-text{
+
+.sponsor-text {
     text-align: center;
 }
-.sponsor-text h1{
+
+.sponsor-text h1 {
     font-size: 3rem;
     margin-bottom: 0;
     color: orange;
 }
 
-.sponsor-item{
+.sponsor-item {
     text-align: center;
 }
-.sponsor-item img{
+
+.sponsor-item img {
     margin-left: 4em;
 }
 
 /* footer part */
 
-footer{
+footer {
     margin: 0 10%;
     background-color: antiquewhite;
     border-radius: 10px;
 }
 
-footer p{
+footer p {
     padding: 20px;
     text-align: center;
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+    .header-title-and-text {
+        width: 100%;
+        margin-top: 7em;
+        text-align: left;
+    }
+
+    .header-title-and-text h2 {
+        line-height: 0.2rem;
+        font-size: 2rem;
+    }
+
+    .explore-btn {
+        margin-top: 10px;
+        border: 0;
+        padding: 10px;
+        background-color: rgb(255, 173, 22);
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 800;
+        border-radius: 3px;
+    }
+
+    #header-part img {
+        width: 100%;
+        margin: 30px 0 10px;
+    }
+
 }
