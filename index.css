@@ -184,7 +184,7 @@ footer p {
     }
 
     .explore-btn {
-        margin-top: 10px;
+        margin-top: 10px 0 30px;
         border: 0;
         padding: 10px;
         background-color: rgb(255, 173, 22);
@@ -196,7 +196,6 @@ footer p {
 
     #header-part img {
         width: 100%;
-        margin: 30px 0 10px;
     }
 
 }
