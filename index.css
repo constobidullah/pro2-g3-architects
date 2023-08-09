@@ -360,23 +360,33 @@ footer p {
         box-shadow: 3px 3px 3px rgb(190, 217, 241), 5px 5px 4px rgb(204, 199, 199), 3px 3px 1px gainsboro;
     }
 
+    .loving-features-image{
+        padding: 0 10px;
+        margin: 0 0 40px 0;
+    }
+
     .loving-features-image img {
         width: 100%;
         height: auto;
     }
 
     .some-facts {
-        margin: 0;
+        margin: 0 10px;
         text-align: center;
     }
 
     .some-facts h1 {
-        font-size: 3rem;
-        margin-bottom: 0;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .some-facts p{
+        font-size: small;
+        margin-bottom: 50px;
     }
 
     .achievement {
-        margin: 10px;
+        margin: 10px 10px 40px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -387,11 +397,11 @@ footer p {
         border: 2px solid orange;
         border-radius: 5px;
         padding: 5px;
-        line-height: 0;
+
     }
 
     .sponsor {
-        margin-bottom: 50px;
+        margin: 0 10px 50px;
     }
 
     .sponsor-text {
@@ -405,14 +415,18 @@ footer p {
     }
 
     .sponsor-item {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
+        
+        margin: 40px 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
 
     .sponsor-item img {
         margin: 0;
+        width: 50%;
     }
 
 }
