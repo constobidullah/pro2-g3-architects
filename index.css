@@ -358,7 +358,7 @@ footer p {
         margin-bottom: 20px;
         padding: 20px;
         background-color: rgb(251, 253, 255);
-        box-shadow: 3px 3px 3px rgb(190, 217, 241), 5px 5px 4px rgb(204, 199, 199), 3px 3px 1px gainsboro;
+        box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1)
     }
 
     .loving-features-image{
