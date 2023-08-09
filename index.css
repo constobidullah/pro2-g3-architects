@@ -436,4 +436,10 @@ footer p {
         border-radius: 10px;
     }
 
+    footer p {
+        padding: 20px;
+        text-align: center;
+        font-size: x-small;
+    }
+
 }
