@@ -39,7 +39,7 @@ nav ul li a {
 
 .toggle {
     font-size: 30px;
-    color: white;
+    color: black;
     margin: 0 .7em;
     cursor: pointer;
     display: none;
@@ -214,12 +214,13 @@ footer p {
         justify-content: space-between;
         align-items: center;
         flex-direction: row-reverse;
-        background-color: salmon;
+        background-color: antiquewhite;
+        color: black;
     }
 
     .web-title {
         font-size: 1.5rem;
-        color: white;
+        color: black;
         font-weight: bold;
         margin-left: .5em;
     }
