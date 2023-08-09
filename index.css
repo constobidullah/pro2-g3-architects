@@ -11,7 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: salmon;
+    background-color: rgb(255, 180, 115);
 }
 
 .web-title {
