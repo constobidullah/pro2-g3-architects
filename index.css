@@ -338,6 +338,7 @@ footer p {
     .loving-features {
         width: 100%;
         margin: 0;
+        padding: 0 10px;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
