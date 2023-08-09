@@ -1,9 +1,9 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
 }
+
 
 nav {
     width: 100%;
@@ -52,7 +52,6 @@ nav ul li a {
 }
 
 .header-title-and-text h2 {
-    line-height: .2rem;
     font-size: 3rem;
 }
 
@@ -67,8 +66,12 @@ nav ul li a {
     border-radius: 3px;
 }
 
+#header-part{
+    text-align: center;
+}
+
 #header-part img {
-    width: 100%;
+    width: 95%;
     margin: 30px 0;
 }
 
@@ -112,21 +115,25 @@ nav ul li a {
     grid-gap: 30px;
 }
 
+.loving-features-heading{
+    margin-bottom: 30px;
+}
 
 .loving-features-heading h1 {
     font-size: 3rem;
     border-left: 5px solid orange;
+    margin-bottom: 30px;
 }
 
 .loving-features-item {
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(251, 253, 255);
-    box-shadow: 3px 3px 3px aliceblue, 5px 5px 4px whitesmoke, 3px 3px 1px gainsboro;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 .some-facts {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .some-facts h1 {
@@ -148,7 +155,6 @@ nav ul li a {
     border: 2px solid orange;
     border-radius: 5px;
     padding: 5px;
-    line-height: 0;
 }
 
 /* Sponsor ship item */
@@ -167,11 +173,14 @@ nav ul li a {
 }
 
 .sponsor-item {
-    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .sponsor-item img {
-    margin-left: 4em;
+    /* margin-left: 4em; */
 }
 
 /* footer part */
@@ -188,10 +197,13 @@ footer p {
 }
 
 @media screen and (max-width:480px) and (min-width:320px) {
-    body {
+    * {
         margin: 0;
         padding: 0;
-        border: 0;
+        box-sizing: border-box;
+    }
+
+    body {
         overflow-x: hidden;
     }
 
@@ -220,7 +232,7 @@ footer p {
         height: 100vh;
         padding: 100px 0 0;
         border-radius: 3px;
-        background-color: rgb(253, 147, 135);
+        background-color: antiquewhite;
         text-align: center;
         transition: all 1.5s;
         transition-timing-function: ease-in;
@@ -234,7 +246,7 @@ footer p {
         text-decoration: none;
         margin-right: .5em;
         padding: 5px 15px;
-        color: white;
+        color: black;
         font-weight: 800;
         font-size: 1.2rem;
         line-height: 3em;
@@ -242,15 +254,15 @@ footer p {
         transition: background 1s;
     }
 
-    nav ul li a:hover{
+    nav ul li a:hover {
         background-color: rgb(66, 133, 110);
     }
 
-    .toggle{
+    .toggle {
         display: block;
     }
 
-    #check:checked ~ ul{
+    #check:checked~ul {
         left: 0;
     }
 
@@ -262,19 +274,21 @@ footer p {
 
     .header-title-and-text {
         width: 100%;
-        margin-top: 7em;
+        margin-top: 4em;
         text-align: center;
+        padding: 0 15px;
     }
 
     .header-title-and-text h2 {
-        line-height: 0.2rem;
+        line-height: 1.2rem;
         font-size: 2rem;
+        margin-bottom: 20px;
     }
 
     .explore-btn {
         margin-top: 10px 0;
         border: 0;
-        padding: 10px;
+        padding: 10px 20px;
         background-color: rgb(255, 173, 22);
         color: white;
         font-size: 0.8rem;
@@ -283,22 +297,22 @@ footer p {
     }
 
     #header-part img {
-        width: 100%;
+        width: 95%;
         margin-top: 30px;
         margin-bottom: 0;
     }
 
     .features {
-        margin: 100px 10px;
+        margin: 50px 10px;
         display: grid;
         grid-template-areas: "item2"
             "item1";
-        grid-template-columns: none;
+        /* grid-template-columns: none; */
         grid-gap: 30px;
     }
 
     .features-image-group {
-        width: 100%;
+        /* width: 100%; */
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
@@ -314,11 +328,16 @@ footer p {
     .features-text h1 {
         width: 100%;
         font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .second-btn {
+        margin: 30px 0 0 ;
     }
 
     .loving-features {
         width: 100%;
-        margin: 0 5px 100px 5px;
+        margin: 0;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
